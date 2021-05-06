@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # https://steemit.com/python/@marketstack/how-to-download-historical-price-data-from-binance-with-python
 import requests        # for making http requests to binance
 import json            # for parsing what binance sends back to us
@@ -63,7 +60,7 @@ def get_historical_data(symbol, interval, start_time, end_time, limit=1000):
 
 
 
-if __init__ == '__main__':
+if __name__ == '__main__':
     start_time = dt.datetime(2020,1,1)
     end_time = dt.datetime(2020,1,5)
 
